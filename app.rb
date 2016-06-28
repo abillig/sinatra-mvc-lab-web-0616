@@ -8,7 +8,6 @@ end
 
 post '/piglatinize' do 
 @latinized = PigLatinizer.new.to_pig_latin(params[:user_phrase])
-erb :latinize
 end 
 
 end
